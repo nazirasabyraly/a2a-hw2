@@ -20,9 +20,6 @@ cd a2a-hw2
 2. Setup Environment
 
 ```bash
-bash
-Копировать
-Редактировать
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -33,9 +30,6 @@ Add your OPENAI_API_KEY to the .env file.
 
 ```bash
 Terminal 1: LlamaIndex Agent Server
-bash
-Копировать
-Редактировать
 python agent_llamaindex.py
 Terminal 2: LangChain Agent Client
 bash
@@ -46,9 +40,6 @@ python agent_langchain.py
 4. ✅  Example Output
 
 ```bash
-text
-Копировать
-Редактировать
 > Entering new AgentExecutor chain...
  I should ask the other agent about their knowledge domain to learn more.
 Action: TalkToLlamaAgent
