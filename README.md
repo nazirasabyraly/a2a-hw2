@@ -16,8 +16,10 @@ This project demonstrates an agent-to-agent (A2A) communication pattern using La
 ```bash
 git clone https://github.com/yourusername/a2a-hw2.git
 cd a2a-hw2
+```
+2. Setup Environment
 
-2. Set up the environment
+```bash
 bash
 Копировать
 Редактировать
@@ -26,8 +28,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
 Add your OPENAI_API_KEY to the .env file.
+```
+3. 🧠 Running the Agents
 
-🧠 Running the Agents
+```bash
 Terminal 1: LlamaIndex Agent Server
 bash
 Копировать
@@ -38,7 +42,10 @@ bash
 Копировать
 Редактировать
 python agent_langchain.py
-✅ Example Output
+```
+4. 🧠 Example Output
+
+```bash
 text
 Копировать
 Редактировать
@@ -64,3 +71,4 @@ Observation: Sure! Here are some examples of topics within the field of artifici
 10. Quantum computing and AI.
 
 Final Answer: The other agent's knowledge domain includes a wide range of topics within the field of artificial intelligence, such as machine learni
+```
