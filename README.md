@@ -43,7 +43,7 @@ bash
 Редактировать
 python agent_langchain.py
 ```
-4. 🧠 Example Output
+4. ✅  Example Output
 
 ```bash
 text
